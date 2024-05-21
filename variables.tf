@@ -5,3 +5,9 @@ variable "project_name" {
 variable "region" {
   type = string 
 }
+variable "sql_admin_login" {
+  type = string
+}
+variable "sql_admin_password" {
+  type = string
+}
